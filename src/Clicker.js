@@ -7,6 +7,7 @@ class Clicker extends Component {
     }
 
     handleClicker = () => {
+        
         const randNum = Math.floor(Math.random() * 10) + 1;
 
         this.setState({
